@@ -1,0 +1,63 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    margin-left: 20px; /* Agrega un margen izquierdo para mover todo hacia la derecha */
+}
+
+#texto {
+    color: blue; /*color del texto a azul */
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+h1 {
+    color: #2c3e50; /* Color azul oscuro */
+    text-align: center; /* Centrar el texto */
+    margin-top: 20px;
+}
+
+/* Estilos para los labels y los inputs del formulario */
+form label {
+    font-weight: bold; /* Negrita para los labels */
+    color: #34495e; /* Color gris oscuro */
+}
+
+form input {
+    width: 100%; /* Hacer que los inputs ocupen todo el ancho disponible */
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluir padding y borde en el ancho total */
+}
+
+/* Estilo para el botón específico del ejercicio 19 */
+#mostrarDatos {
+    background-color: #3498db; /* Azul */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#mostrarDatos:hover {
+    background-color: #2980b9; /* Azul más oscuro al pasar el mouse */
+}
+ 

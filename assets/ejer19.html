@@ -1,0 +1,38 @@
+<!-- 
+19. Crear una página que muestre 3 campos (input): Nombre, apellido, libreta universitaria.
+ Crear un script para obtener cada uno de los elementos input creados, mediante el método querySelector(), 
+ manipular los elementos para obtener su valor con la propiedad JS value y mostrar los datos con un alert de
+ la siguiente forma: 
+
+  Los datos ingresados son: 
+  Nombre: María 
+  Apellido: Diaz 
+  Libreta Universitaria: APU999999
+ -->
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 19</title>
+    <link rel="stylesheet" href="Css/estilos.css"> 
+</head>
+
+<body> 
+    <h1>Ejercicio 19</h1>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido"><br><br>
+
+        <label for="libreta">Libreta Universitaria:</label>
+        <input type="text" id="libreta" name="libreta"><br><br>
+
+        <button type="button" id="mostrarDatos">Mostrar Datos</button>
+    </form>
+    <script type="module" src="/src/ejer19.js"></script>
+</body>
+</html>
